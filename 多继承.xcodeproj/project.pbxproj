@@ -15,6 +15,23 @@
 		CF10502E1FA0582700AC5ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10502C1FA0582700AC5ABD /* LaunchScreen.storyboard */; };
 		CF1050391FA0582700AC5ABD /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050381FA0582700AC5ABD /* ___Tests.m */; };
 		CF1050441FA0582700AC5ABD /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050431FA0582700AC5ABD /* ___UITests.m */; };
+		CF1050541FA0587400AC5ABD /* ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050531FA0587400AC5ABD /* ModelA.m */; };
+		CF1050571FA0588500AC5ABD /* ModelB.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050561FA0588500AC5ABD /* ModelB.m */; };
+		CF10505A1FA0588F00AC5ABD /* ModelC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050591FA0588F00AC5ABD /* ModelC.m */; };
+		CF10505E1FA05E3800AC5ABD /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10505D1FA05E3800AC5ABD /* Doctor.m */; };
+		CF1050611FA05E4F00AC5ABD /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050601FA05E4F00AC5ABD /* Teacher.m */; };
+		CF1050651FA08DE500AC5ABD /* MsgForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050641FA08DE500AC5ABD /* MsgForwardViewController.m */; };
+		CF1050681FA08E0300AC5ABD /* CombinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050671FA08E0300AC5ABD /* CombinaViewController.m */; };
+		CF10506B1FA08E1700AC5ABD /* ProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10506A1FA08E1700AC5ABD /* ProtocolViewController.m */; };
+		CF10506E1FA08E2400AC5ABD /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10506D1FA08E2400AC5ABD /* DelegateViewController.m */; };
+		CF1050711FA08F5C00AC5ABD /* ForceTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050701FA08F5C00AC5ABD /* ForceTransformViewController.m */; };
+		CF1050761FA091C100AC5ABD /* PersonA.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050751FA091C100AC5ABD /* PersonA.m */; };
+		CF1050791FA091D000AC5ABD /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1050781FA091D000AC5ABD /* PersonB.m */; };
+		CFB20E561FA1C9E50027FC11 /* DelegateClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB20E551FA1C9E50027FC11 /* DelegateClassA.m */; };
+		CFB20E591FA1C9FA0027FC11 /* DelegateClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB20E581FA1C9FA0027FC11 /* DelegateClassB.m */; };
+		CFB20E5C1FA1D1F70027FC11 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB20E5B1FA1D1F70027FC11 /* NSString+Addition.m */; };
+		CFB20E5F1FA1D2450027FC11 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB20E5E1FA1D2450027FC11 /* CategoryViewController.m */; };
+		CFB20E611FA1D3850027FC11 /* oc实现多继承.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CFB20E601FA1D3850027FC11 /* oc实现多继承.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,39 @@
 		CF10503F1FA0582700AC5ABD /* 多继承UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多继承UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1050431FA0582700AC5ABD /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		CF1050451FA0582700AC5ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1050521FA0587400AC5ABD /* ModelA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelA.h; sourceTree = "<group>"; };
+		CF1050531FA0587400AC5ABD /* ModelA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelA.m; sourceTree = "<group>"; };
+		CF1050551FA0588500AC5ABD /* ModelB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelB.h; sourceTree = "<group>"; };
+		CF1050561FA0588500AC5ABD /* ModelB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelB.m; sourceTree = "<group>"; };
+		CF1050581FA0588F00AC5ABD /* ModelC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelC.h; sourceTree = "<group>"; };
+		CF1050591FA0588F00AC5ABD /* ModelC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelC.m; sourceTree = "<group>"; };
+		CF10505C1FA05E3800AC5ABD /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		CF10505D1FA05E3800AC5ABD /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		CF10505F1FA05E4F00AC5ABD /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		CF1050601FA05E4F00AC5ABD /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		CF1050631FA08DE500AC5ABD /* MsgForwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgForwardViewController.h; sourceTree = "<group>"; };
+		CF1050641FA08DE500AC5ABD /* MsgForwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgForwardViewController.m; sourceTree = "<group>"; };
+		CF1050661FA08E0300AC5ABD /* CombinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinaViewController.h; sourceTree = "<group>"; };
+		CF1050671FA08E0300AC5ABD /* CombinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinaViewController.m; sourceTree = "<group>"; };
+		CF1050691FA08E1700AC5ABD /* ProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolViewController.h; sourceTree = "<group>"; };
+		CF10506A1FA08E1700AC5ABD /* ProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolViewController.m; sourceTree = "<group>"; };
+		CF10506C1FA08E2400AC5ABD /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		CF10506D1FA08E2400AC5ABD /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		CF10506F1FA08F5C00AC5ABD /* ForceTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceTransformViewController.h; sourceTree = "<group>"; };
+		CF1050701FA08F5C00AC5ABD /* ForceTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceTransformViewController.m; sourceTree = "<group>"; };
+		CF1050741FA091C100AC5ABD /* PersonA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonA.h; sourceTree = "<group>"; };
+		CF1050751FA091C100AC5ABD /* PersonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonA.m; sourceTree = "<group>"; };
+		CF1050771FA091D000AC5ABD /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
+		CF1050781FA091D000AC5ABD /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
+		CFB20E541FA1C9E50027FC11 /* DelegateClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateClassA.h; sourceTree = "<group>"; };
+		CFB20E551FA1C9E50027FC11 /* DelegateClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateClassA.m; sourceTree = "<group>"; };
+		CFB20E571FA1C9FA0027FC11 /* DelegateClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateClassB.h; sourceTree = "<group>"; };
+		CFB20E581FA1C9FA0027FC11 /* DelegateClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateClassB.m; sourceTree = "<group>"; };
+		CFB20E5A1FA1D1F70027FC11 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		CFB20E5B1FA1D1F70027FC11 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		CFB20E5D1FA1D2450027FC11 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		CFB20E5E1FA1D2450027FC11 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		CFB20E601FA1D3850027FC11 /* oc实现多继承.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "oc实现多继承.rtf"; path = "多继承/oc实现多继承.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +131,7 @@
 		CF1050121FA0582600AC5ABD = {
 			isa = PBXGroup;
 			children = (
+				CFB20E601FA1D3850027FC11 /* oc实现多继承.rtf */,
 				CF10501D1FA0582700AC5ABD /* 多继承 */,
 				CF1050371FA0582700AC5ABD /* 多继承Tests */,
 				CF1050421FA0582700AC5ABD /* 多继承UITests */,
@@ -101,6 +152,12 @@
 		CF10501D1FA0582700AC5ABD /* 多继承 */ = {
 			isa = PBXGroup;
 			children = (
+				CF1050621FA08CF700AC5ABD /* VC */,
+				CF10505B1FA05E2100AC5ABD /* 消息转发 */,
+				CF1050511FA0585600AC5ABD /* 组合模式 */,
+				CF1050721FA090F700AC5ABD /* 代理模式 */,
+				CF10507A1FA0942E00AC5ABD /* 分类 */,
+				CF1050731FA090F700AC5ABD /* 协议 */,
 				CF1050211FA0582700AC5ABD /* AppDelegate.h */,
 				CF1050221FA0582700AC5ABD /* AppDelegate.m */,
 				CF1050241FA0582700AC5ABD /* ViewController.h */,
@@ -138,6 +195,80 @@
 				CF1050451FA0582700AC5ABD /* Info.plist */,
 			);
 			path = "多继承UITests";
+			sourceTree = "<group>";
+		};
+		CF1050511FA0585600AC5ABD /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				CF1050521FA0587400AC5ABD /* ModelA.h */,
+				CF1050531FA0587400AC5ABD /* ModelA.m */,
+				CF1050551FA0588500AC5ABD /* ModelB.h */,
+				CF1050561FA0588500AC5ABD /* ModelB.m */,
+				CF1050581FA0588F00AC5ABD /* ModelC.h */,
+				CF1050591FA0588F00AC5ABD /* ModelC.m */,
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		CF10505B1FA05E2100AC5ABD /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				CF10505C1FA05E3800AC5ABD /* Doctor.h */,
+				CF10505D1FA05E3800AC5ABD /* Doctor.m */,
+				CF10505F1FA05E4F00AC5ABD /* Teacher.h */,
+				CF1050601FA05E4F00AC5ABD /* Teacher.m */,
+			);
+			path = "消息转发";
+			sourceTree = "<group>";
+		};
+		CF1050621FA08CF700AC5ABD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CF1050631FA08DE500AC5ABD /* MsgForwardViewController.h */,
+				CF1050641FA08DE500AC5ABD /* MsgForwardViewController.m */,
+				CF1050661FA08E0300AC5ABD /* CombinaViewController.h */,
+				CF1050671FA08E0300AC5ABD /* CombinaViewController.m */,
+				CF1050691FA08E1700AC5ABD /* ProtocolViewController.h */,
+				CF10506A1FA08E1700AC5ABD /* ProtocolViewController.m */,
+				CF10506C1FA08E2400AC5ABD /* DelegateViewController.h */,
+				CF10506D1FA08E2400AC5ABD /* DelegateViewController.m */,
+				CF10506F1FA08F5C00AC5ABD /* ForceTransformViewController.h */,
+				CF1050701FA08F5C00AC5ABD /* ForceTransformViewController.m */,
+				CFB20E5D1FA1D2450027FC11 /* CategoryViewController.h */,
+				CFB20E5E1FA1D2450027FC11 /* CategoryViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CF1050721FA090F700AC5ABD /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				CFB20E541FA1C9E50027FC11 /* DelegateClassA.h */,
+				CFB20E551FA1C9E50027FC11 /* DelegateClassA.m */,
+				CFB20E571FA1C9FA0027FC11 /* DelegateClassB.h */,
+				CFB20E581FA1C9FA0027FC11 /* DelegateClassB.m */,
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		CF1050731FA090F700AC5ABD /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				CF1050741FA091C100AC5ABD /* PersonA.h */,
+				CF1050751FA091C100AC5ABD /* PersonA.m */,
+				CF1050771FA091D000AC5ABD /* PersonB.h */,
+				CF1050781FA091D000AC5ABD /* PersonB.m */,
+			);
+			path = "协议";
+			sourceTree = "<group>";
+		};
+		CF10507A1FA0942E00AC5ABD /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				CFB20E5A1FA1D1F70027FC11 /* NSString+Addition.h */,
+				CFB20E5B1FA1D1F70027FC11 /* NSString+Addition.m */,
+			);
+			path = "分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF10502E1FA0582700AC5ABD /* LaunchScreen.storyboard in Resources */,
+				CFB20E611FA1D3850027FC11 /* oc实现多继承.rtf in Resources */,
 				CF10502B1FA0582700AC5ABD /* Assets.xcassets in Resources */,
 				CF1050291FA0582700AC5ABD /* Main.storyboard in Resources */,
 			);
@@ -276,7 +408,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1050761FA091C100AC5ABD /* PersonA.m in Sources */,
+				CFB20E5F1FA1D2450027FC11 /* CategoryViewController.m in Sources */,
+				CFB20E5C1FA1D1F70027FC11 /* NSString+Addition.m in Sources */,
+				CF1050611FA05E4F00AC5ABD /* Teacher.m in Sources */,
+				CF10506E1FA08E2400AC5ABD /* DelegateViewController.m in Sources */,
 				CF1050261FA0582700AC5ABD /* ViewController.m in Sources */,
+				CFB20E591FA1C9FA0027FC11 /* DelegateClassB.m in Sources */,
+				CF1050681FA08E0300AC5ABD /* CombinaViewController.m in Sources */,
+				CF10505E1FA05E3800AC5ABD /* Doctor.m in Sources */,
+				CF10506B1FA08E1700AC5ABD /* ProtocolViewController.m in Sources */,
+				CF10505A1FA0588F00AC5ABD /* ModelC.m in Sources */,
+				CF1050541FA0587400AC5ABD /* ModelA.m in Sources */,
+				CF1050571FA0588500AC5ABD /* ModelB.m in Sources */,
+				CF1050711FA08F5C00AC5ABD /* ForceTransformViewController.m in Sources */,
+				CF1050651FA08DE500AC5ABD /* MsgForwardViewController.m in Sources */,
+				CF1050791FA091D000AC5ABD /* PersonB.m in Sources */,
+				CFB20E561FA1C9E50027FC11 /* DelegateClassA.m in Sources */,
 				CF1050231FA0582700AC5ABD /* AppDelegate.m in Sources */,
 				CF1050201FA0582700AC5ABD /* main.m in Sources */,
 			);
@@ -516,6 +664,7 @@
 				CF10504A1FA0582700AC5ABD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF10504B1FA0582700AC5ABD /* Build configuration list for PBXNativeTarget "多继承Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +673,7 @@
 				CF10504D1FA0582700AC5ABD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF10504E1FA0582700AC5ABD /* Build configuration list for PBXNativeTarget "多继承UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +682,7 @@
 				CF1050501FA0582700AC5ABD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
